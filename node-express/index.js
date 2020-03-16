@@ -14,6 +14,9 @@ app.use(express.static(__dirname + '/public'));
 const bodyParser = require('body-parser');
 app.use(bodyParser.json());
 
+const dishRouter = require('./routes/dishRouter');
+app.use('/dishes', dishRouter);
+
 app.all('/dishes', (req, res, next) => {
     res.statusCode = 200;
     res.setHeader('Content-Type', 'text/plain');
