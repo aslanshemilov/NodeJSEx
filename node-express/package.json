@@ -1,0 +1,23 @@
+{
+  "name": "node-express",
+  "version": "1.0.0",
+  "description": "Node Express Examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shilpakancharla/NodeJSEx.git"
+  },
+  "author": "Shilpa Kancharla",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shilpakancharla/NodeJSEx/issues"
+  },
+  "homepage": "https://github.com/shilpakancharla/NodeJSEx#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}
